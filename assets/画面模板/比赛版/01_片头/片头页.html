@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><title>比赛集锦画面模板</title><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { width:1080px; height:1920px; font-family:"Microsoft YaHei",sans-serif;
+  background:linear-gradient(160deg,#101b33 0%,#16294d 55%,#1b3564 100%); color:#fff; overflow:hidden; }
+.wrap { width:1080px; height:1920px; padding:64px 60px; position:relative; }
+.deco { position:absolute; border:6px solid rgba(255,170,60,.45); border-radius:50%; }
+.d1 { width:340px; height:340px; top:-130px; right:-115px; }
+.d2 { width:210px; height:210px; bottom:-75px; left:-65px; border-color:rgba(255,255,255,.08); }
+.topbar { text-align:center; }
+.topbar .org { font-size:26px; color:#9fb4d8; letter-spacing:2px; }
+.topbar .date { font-size:22px; color:#6f85ab; margin-top:6px; }
+.page-flag { position:absolute; top:64px; right:60px; font-size:20px; color:#ff8a3d; font-weight:700; letter-spacing:2px; }
+.section-t { font-size:44px; font-weight:800; color:#fff; text-align:center; margin-top:18px; letter-spacing:1px; }
+.section-s { font-size:24px; color:#9fb4d8; text-align:center; margin-top:8px; }
+.card { background:rgba(255,255,255,.06); border:1.5px solid rgba(255,255,255,.12); border-radius:14px; }
+</style></head>
+<body><div class="wrap"><div class="deco d1"></div><div class="deco d2"></div>
+<div class="page-flag">COVER · 片头</div>
+<div class="topbar"><div class="org">常青藤篮球训练中心</div><div class="date">2026.__.__ 队内训练赛 · 2026 赛季</div></div>
+<div style="text-align:center;margin-top:150px;">
+  <img src="../../../logo/LOGO.png" style="width:220px;height:220px;object-fit:contain;" alt="LOGO">
+</div>
+<div class="section-t" style="margin-top:36px;">队内训练赛</div>
+<div style="text-align:center;margin-top:10px;font-size:26px;color:#9fb4d8;letter-spacing:3px;">全场集锦 · 过场体系</div>
+<!-- A vs B -->
+<div style="display:flex;justify-content:center;align-items:center;gap:30px;margin-top:70px;">
+  <div style="text-align:center;"><div style="font-size:34px;font-weight:800;color:#b8a8ff;">常青藤 A 队</div></div>
+  <div style="font-size:56px;font-weight:800;background:linear-gradient(90deg,#ffb84d,#ff8a3d);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">VS</div>
+  <div style="text-align:center;"><div style="font-size:34px;font-weight:800;color:#ffb84d;">常青藤 B 队</div></div>
+</div>
+<!-- 最终比分占位 -->
+<div style="text-align:center;margin-top:40px;background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.14);border-radius:18px;padding:26px 24px;margin-left:60px;margin-right:60px;">
+  <div style="font-size:24px;color:#9fb4d8;letter-spacing:2px;">最终比分</div>
+  <div style="display:flex;justify-content:center;align-items:center;gap:26px;margin-top:12px;font-size:64px;font-weight:800;">
+    <span style="color:#b8a8ff;">--</span><span style="color:#6f85ab;font-size:36px;">:</span><span style="color:#ffb84d;">--</span>
+  </div>
+  <div style="font-size:20px;color:#6f85ab;margin-top:8px;">（赛后填入）</div>
+</div>
+<div style="text-align:center;margin-top:60px;font-size:22px;color:#6f85ab;letter-spacing:2px;">第 1 ~ 8 节 · 每节过场 · 趋势汇总</div>
+</div></body></html>
