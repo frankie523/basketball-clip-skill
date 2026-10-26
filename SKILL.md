@@ -66,11 +66,11 @@ description: 常青藤篮球训练馆队内训练赛视频剪辑与数据统计�
 
 ---
 
-## 详细参考文档
-- `references/ocr-guide.md` — OCR识别详细经验
-- `references/data-rules.md` — 数据统计规则详解
-- `references/editing-spec.md` — 剪辑参数与输出规范
-- `references/pitfalls.md` — 历史踩坑记录（不要再犯）
+## 详细参考文档（完整权威版，开工必读）
+- `references/ocr-guide.md` — OCR识别全流程与精度提升手册（抽帧→识别→解析→定帧核验→四层对账）
+- `references/data-rules.md` — 数据字典（统计口径、动作词归一、字幕理解案例库）
+- `references/editing-spec.md` — 通用剪辑规范（全流程总入口：母带→剪辑表→集锦→校验→交付，含命名规范）
+- `references/pitfalls.md` — 历史踩坑记录（8个坑，不要再犯）
 
 ---
 
