@@ -82,4 +82,4 @@ description: 常青藤篮球训练馆队内训练赛视频剪辑与数据统计�
 | `assets/fonts/` | msyh.ttc（常规）、msyhbd.ttc（粗体） | 片头片尾字幕字体 |
 | `assets/logo/` | LOGO.png | 常青藤篮球LOGO |
 | `assets/mascot/` | _mascot_cutout.png | 吉祥物小老虎（透明底） |
-| `assets/template/` | 全场比赛剪辑和数据（模版）.xlsx | 标准剪辑表模板，每次比赛复制一份用 |
+| `assets/template/` | 全场比赛剪辑和数据（模版）.xlsx | 制式模板v2（2026-10-26）：Game Log=全场事件母表（含「编号」列=球员姓名首字母缩写+3位序号如ptl001、「定帧事件描述」列=字幕原文）；Game Stats=全场统计（公式联动Game Log）；1~8节+各节Stats（按节拆分）；Ply Log=个人剪辑目录（24球员区块，填编号自动VLOOKUP联动数据，**最终剪辑按Ply Log片段切割**）；数据核对=用途说明+自动核对（全场得分 vs 各节之和）。新比赛日拷贝「共享资产\标准文档」改日期即用 |
